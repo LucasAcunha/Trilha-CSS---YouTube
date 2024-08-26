@@ -1,0 +1,207 @@
+
+header {
+
+    box-shadow: 1px 1px 8px #bbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.menu img {
+
+    margin-left: 15px;
+
+}
+
+.menu, .search {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.search input {
+
+    width: 400px;
+    height: 40px;
+    padding-left: 5px;
+    border: 1px solid #bbb;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.search button {
+
+    width: 75px;
+    height: 40px;
+    border: 1px solid #bbb;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
+.avatar {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.avatar .dio {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+main {
+
+    display: flex;
+    background: #f9f9f9ac;
+    width: 100%;
+    padding-top: 35px;
+
+}
+ 
+.w_video {
+    margin-left: 75px;
+}
+
+.w_video .video iframe {
+
+    border-radius: 20px;
+
+}
+
+.video_title {
+
+    padding: 16px 0;
+
+}
+
+.infos {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.infos .channel-details {
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.infos .channel-details .text-details h3 {
+
+    font-weight: 600;
+
+}
+
+.infos .subscribe button {
+
+    width: 159px;
+    height: 40px;
+    border: transparent;
+    color: #fff;
+    background-color: #CC0000;
+    border-radius: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+.infos .subscribe button:hover {
+
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+
+}
+
+.infos .like, 
+.infos .dislike,
+.infos .share,
+.infos .download {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+
+}
+
+.views {
+
+    padding: 18px 0;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.description {
+
+    width: 510px;
+    padding: 10px 0;
+    opacity: 0.8;
+
+
+}
+
+.n_video {
+
+    padding-left: 25px;
+
+
+
+}
+
+.tn_video {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding-bottom: 20px;
+}
+
+.thumb img {
+    width: 170px;
+    height: 100px;
+}
+
+.tn-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.tn-info-views {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.tn-info-views p,
+.tn-info .tn-channel p {
+
+    opacity: 0.7;
+
+}
+
+
+
+
+
+
+
+
+ 
